@@ -1,0 +1,19 @@
+.nav-container {
+  position: absolute;
+  height: 70px;
+  width: 100%;
+  margin: auto;
+  top: 0px;
+}
+nav {
+  color: white;
+}
+
+.icon {
+  color: orange;
+  font-size: 25px;
+}
+
+nav ul {
+  list-style: none;
+}
