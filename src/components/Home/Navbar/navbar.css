@@ -20,6 +20,10 @@ nav {
   cursor: pointer;
 }
 
+.list {
+  border-radius: 25px;
+}
+
 nav ul {
   list-style: none;
   width: 50%;

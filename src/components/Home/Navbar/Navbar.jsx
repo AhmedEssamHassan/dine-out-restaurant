@@ -22,7 +22,7 @@ export default function Navbar() {
           className="list-container w-100 d-flex justify-content-end align-items-center"
           style={{ overflow: "hidden" }}
         >
-          <div className="w-100 overflow-hidden d-flex justify-content-end">
+          <div className="list w-100 overflow-hidden d-flex justify-content-end">
             <ul className="d-flex justify-content-between m-0" style={style}>
               <li>about us</li>
               <li>our menu</li>
