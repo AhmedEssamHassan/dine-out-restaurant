@@ -13,6 +13,7 @@ export default function Header() {
             <br />
             ea nemo. Nam maxime autem maiores.
           </p>
+          <button className="btn btn-warning text-capitalize">order now</button>
         </div>
         <Navbar />
       </header>
