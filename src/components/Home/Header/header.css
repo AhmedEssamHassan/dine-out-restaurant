@@ -1,12 +1,12 @@
+main {
+  color: white;
+  text-transform: capitalize;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 header {
   height: 450px;
   position: relative;
-  background-color: black;
-  overflow: hidden;
-}
-
-header img {
-  width: 100%;
-  height: 100%;
-  transform: rotateX(180deg);
+  background-color: rgba(0, 0, 0, 0.722);
 }
