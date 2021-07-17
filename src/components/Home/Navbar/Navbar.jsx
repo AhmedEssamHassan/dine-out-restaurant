@@ -11,8 +11,8 @@ export default function Navbar() {
   const style = isNavMenuOpen ? {} : { transform: `translate(${120}%)` };
 
   return (
-    <div className="nav-container  d-flex justify-content-center">
-      <nav className="container d-flex  justify-content-between">
+    <div className="nav-container flex justify-content-center">
+      <nav className="container d-md-flex my-3 justify-content-between">
         <section className="logo-icon-container d-flex justify-content-center align-items-center">
           <IoRestaurantSharp className="icon mx-1" />
           <h3 className="m-0">dine out</h3>
@@ -23,10 +23,7 @@ export default function Navbar() {
           style={{ overflow: "hidden" }}
         >
           <div className="w-100 overflow-hidden d-flex justify-content-end">
-            <ul
-              className="d-flex justify-content-between m-0 px-5 py-2"
-              style={style}
-            >
+            <ul className="d-flex justify-content-between m-0" style={style}>
               <li>about us</li>
               <li>our menu</li>
               <li>feedbacks</li>
