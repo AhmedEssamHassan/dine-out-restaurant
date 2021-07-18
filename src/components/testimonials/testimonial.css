@@ -1,0 +1,17 @@
+.card-item {
+  width: 30%;
+  height: 250px;
+  text-align: left;
+  box-shadow: 0 0 15px 5px black;
+  border: 1px solid rgba(255, 255, 255, 0.267);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 999px) {
+  .card-item {
+    width: 100% !important;
+    font-size: 13px;
+    padding: 5px !important;
+    margin-bottom: 20px;
+  }
+}

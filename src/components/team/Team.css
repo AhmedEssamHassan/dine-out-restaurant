@@ -1,0 +1,67 @@
+.card-item {
+  position: relative;
+}
+
+.card-item .card-desc {
+  position: absolute;
+  background-color: #03071b;
+  top: 95%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  width: 70%;
+  margin: auto;
+  transition: all 0.5s linear;
+  color: orange;
+}
+
+.card-item:hover {
+  cursor: pointer;
+}
+
+.card-item:hover .card-desc {
+  top: 80%;
+  background-color: orange;
+  color: white;
+}
+
+.c-title {
+  font-size: 17px;
+}
+
+.c-desc {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 999px) {
+  .card-item .card-desc {
+    width: 90% !important;
+    height: 50px;
+    font-size: 30px;
+    bottom: 39px;
+  }
+
+  .card-item {
+    width: 100% !important;
+    border: 5px solid red;
+  }
+  .c-title {
+    font-size: 16px;
+  }
+
+  .c-desc {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .card-item .card-desc {
+    font-size: 55px;
+  }
+  .c-title {
+    font-size: 10px;
+  }
+
+  .c-desc {
+    font-size: 18px;
+  }
+}
