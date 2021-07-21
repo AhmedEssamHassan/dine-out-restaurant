@@ -49,7 +49,7 @@ export default function Footer() {
           }}
         >
           <div className="d-flex justify-content-center align-items-center">
-            <AiOutlineCopyright /> <p className="m-0">2020 by ahmed essam</p>
+            <AiOutlineCopyright /> <p className="m-0">2020 by ahmed essam & Mostafa osama </p>
           </div>
         </div>
       </main>

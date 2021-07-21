@@ -4,7 +4,7 @@ import "./about.css";
 export default function About() {
   return (
     <main className="container py-5">
-      <p style={{ color: "orange" }}>dine out</p>
+      <p style={{ color: "orange" }}>Dine out</p>
       <h3 className="title">about us</h3>
       <section className="content-container d-md-flex justify-content-around my-5">
         <div className="d-flex flex-column align-items-start  w-100 p-3">

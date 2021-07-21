@@ -44,7 +44,7 @@ export default function Team() {
             alt=""
           />
           <div className="card-desc p-2 d-flex flex-column align-items-center justify-content-center">
-            <p className="c-title m-0 p-0">Lorem ipsum dolor sit amet.</p>
+          <p className="c-title m-0 p-0">Lorem ipsum dolor sit amet.</p>
             <p className="c-desc m-0 p-0">Lorem, ipsum.</p>
           </div>
         </section>

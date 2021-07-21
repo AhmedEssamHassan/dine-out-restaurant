@@ -9,12 +9,12 @@ export default function Menu() {
 
   const { filterCategory, list, isActiveBtn } = data;
 
-  const catigories = ["lunch", "dinner", "drinks", "desserts"];
+  const catigories = ["LANUCH", "DINNER", "DRINKS", "DESSERT"];
 
   return (
     <main className="">
-      <p style={{ color: "orange" }}>dine out</p>
-      <h3 className="title">menu</h3>
+      <p style={{ color: "orange" }}>DINE OUT</p>
+      <h3 className="title">MENU</h3>
       <ul className=" d-flex my-5 justify-content-around align-items-center">
         {catigories.map((cat, indx) => (
           <CatLink key={indx} indx={indx} cat={cat} />

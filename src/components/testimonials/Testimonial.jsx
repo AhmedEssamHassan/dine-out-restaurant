@@ -9,8 +9,8 @@ export default function Testimonial() {
       <h3>our chefs</h3>
       <main className=" m-5 d-md-flex justify-content-around align-items-center">
         <section className="card-item  p-3">
-          <h4>ahmed essam</h4>
-          <h6 style={{ color: "orange" }}>Lorem ipsum dolor sit amet.</h6>
+          <h4>Willo Smiith</h4>
+          <h6 style={{ color: "orange" }}>Lorem ipsum dolor.</h6>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia modi
             totam distinctio architecto iure dolor hic officia velit ad
@@ -26,8 +26,8 @@ export default function Testimonial() {
           </p>
         </section>
         <section className="card-item  p-3">
-          <h4>ahmed essam</h4>
-          <h6 style={{ color: "orange" }}>Lorem ipsum dolor sit amet.</h6>
+          <h4>Sam Alpa</h4>
+          <h6 style={{ color: "orange" }}>Lorem ipsum sit amet.</h6>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia modi
             totam distinctio architecto iure dolor hic officia velit ad
@@ -43,8 +43,8 @@ export default function Testimonial() {
           </p>
         </section>
         <section className="card-item  p-3">
-          <h4>ahmed essam</h4>
-          <h6 style={{ color: "orange" }}>Lorem ipsum dolor sit amet.</h6>
+          <h4>Sara William</h4>
+          <h6 style={{ color: "orange" }}>ipsum dolor sit amet.</h6>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia modi
             totam distinctio architecto iure dolor hic officia velit ad
